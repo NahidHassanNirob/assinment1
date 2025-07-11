@@ -36,6 +36,10 @@ nav .logo h1 {
     color: #4E47FF;
 }
 
+nav .logo h1 span {
+    color: rgb(245, 101, 101);
+}
+
 header nav .button button {
     font-size: 16px;
     padding: 10px 20px;
@@ -456,6 +460,9 @@ footer .logo h1 {
     color: #4E47FF;
 
 }
+footer .logo h1 span{
+    color: rgb(245, 101, 101);
+}
 
 footer .logo p {
     font-family: sans-serif;
@@ -493,15 +500,17 @@ footer .foot {
     font-family: Arial, Helvetica, sans-serif;
     color: rgb(77, 75, 75);
     margin: 10px 0 0 0;
- 
+
 }
-footer .img{
+
+footer .img {
     display: flex;
     justify-content: center;
     gap: 50px;
     margin: 40px 0 0 0;
 }
-footer .img img:hover{
+
+footer .img img:hover {
     transform: scale(1.25);
     transition: all ease-in-out 0.3s;
 }
