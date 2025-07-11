@@ -501,6 +501,10 @@ footer .img{
     gap: 50px;
     margin: 40px 0 0 0;
 }
+footer .img img:hover{
+    transform: scale(1.25);
+    transition: all ease-in-out 0.3s;
+}
 
 footer .img img {
     height: 30px;
