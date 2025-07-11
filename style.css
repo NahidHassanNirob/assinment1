@@ -8,6 +8,8 @@ body {
     background-color: #edeef1;
 }
 
+
+
 header {
     background: url(Assets/Hero-bg.png);
     background-position: center;
@@ -298,6 +300,9 @@ section {}
     border-radius: 20px;
 
 
+}
+.section-four img{
+    max-width: 90%;
 }
 
 .section-four h2 {
