@@ -19,6 +19,7 @@ header {
 
 
 
+
 }
 
 header nav {
@@ -231,6 +232,8 @@ section {}
 .section-three .mainCart {
     display: flex;
     justify-content: space-between;
+    gap: 20px;
+    
 }
 
 .card {
@@ -489,6 +492,7 @@ footer .links ul {
 }
 
 footer .links ul li {
+    font-size: 22px;
     list-style: none;
     text-transform: capitalize;
     font: bold;
