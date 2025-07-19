@@ -16,7 +16,7 @@ header {
     background-size: cover;
     max-width: 100%;
     min-height: 100vh;
-    
+
 
 
 
@@ -60,7 +60,7 @@ header nav .button button {
     background-color: tomato;
     border: 1px solid tomato;
     transform: scale(1.05);
-   
+
 
 
     transition: all ease-in-out 0.4s;
@@ -73,7 +73,7 @@ header nav .button button {
     text-align: center;
     /* margin: 100px 0; */
     padding: 100px 0 20px 0;
-    
+
 }
 
 .banner h1 {
@@ -116,6 +116,7 @@ section {}
     justify-content: space-between;
     padding: 80px 90px;
     align-items: center;
+    flex-direction: row;
 
 
 
@@ -235,9 +236,9 @@ section {}
     display: flex;
     justify-content: space-between;
     gap: 20px;
-    
-    
-    
+
+
+
 }
 
 .card {
@@ -247,7 +248,7 @@ section {}
     box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
     border-radius: 10px;
     font-family: sans-serif;
-    
+
 }
 
 
@@ -309,7 +310,8 @@ section {}
 
 
 }
-.section-four img{
+
+.section-four img {
     max-width: 90%;
 }
 
@@ -473,7 +475,8 @@ footer .logo h1 {
     color: #4E47FF;
 
 }
-footer .logo h1 span{
+
+footer .logo h1 span {
     color: rgb(245, 101, 101);
 }
 
@@ -484,7 +487,7 @@ footer .logo p {
     font-size: 16px;
     text-transform: capitalize;
     margin: 0px 0 20px;
-    
+
 
 }
 
@@ -533,4 +536,81 @@ footer .img img {
     height: 30px;
 }
 
-/* end footer */
+/* end footer *
+
+/* media quare */
+
+/* small devices */
+
+
+
+@media screen and (max-width: 768px) {
+    nav .logo h1{
+        font-size: 40px;
+    }
+    .banner h1 {
+        font-size: 40px;
+    }
+
+    .section-one {
+        flex-direction: column;
+        justify-content: center;
+        gap: 50px;
+        text-align: center;
+    }
+
+    .section-three .mainCart {
+        flex-direction: column;
+        gap: 20px;
+
+    }
+
+    .card {
+        margin: auto;
+    }
+
+    .section-four img {
+        width: 80%;
+    }
+
+    .section-four p {
+        font-size: 17px;
+    }
+
+    .section-two .boxs div h2 {
+        font-size: 40px;
+
+    }
+
+    .section-two .boxs div p {
+        font-size: 17px;
+    }
+
+    .section-five {
+        flex-direction: column;
+    }
+
+    .section-five .text h1 {
+        font-size: 40px;
+        margin-bottom: 40px;
+
+    }
+    footer .logo h1{
+        font-size: 40px;
+    }
+  
+    header nav .button button,.banner button ,.section-one .content button ,.section-four button  {
+         padding: 10px 15px;
+        font-size: 14px;
+
+    }
+    footer .logo p{
+        margin-top: 30px;
+    }
+    footer .links ul {
+        font-size: 17px;
+    }
+    footer .img img {
+        height: 25px;
+    }
+}
